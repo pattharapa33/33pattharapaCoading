@@ -1,21 +1,20 @@
-print("โปเเกรมคำนวณคะเเนนรวม")
+print("โปรเเกรมคำนวณคะเเนนรวม \n ")
 
-score1 = int(input("คะเเนนวิชาที่่1"))
-score2 = int(input("คะเเนนวิชาที่2"))
-score3 = int(input("คะเเนนวิชาที่3"))
+science = int(input("คะเเนนวิทยาศาสตร์"))
+thai = int(input("คะเเนนภาษาไทย"))
+english = int(input("คะเเนนภาษาอังกฤษ"))
 
-total_score = score1 + score2 + score3
-average = total_score/3
+total_point = science + thai + english
+average = total_point /3
+
+print("\nคะเเนนรวมของคุณ = ", total_point)
+print("คะเเนนเฉลี่ยของคุณ = ", average)
 
 if average < 60:
-    print("คะเเนนรวมของคุณ = ", total_score)
-    print("คะเเนนเฉลี่ย 3 วิชา = , average")
-    print("ควรปรับปรุง")
-elif average > 80:
-    print("คะเเนนรวมของคุณ = ", total_score)
-    print("คะเเนนเฉลี่ย 3 วิชา = , average")
-    print("ผ่านเกณฑ์")
-else:
-    print("คะเเนนรวมของคุณ = ", total_score)
-    print("คะเเนนเฉลี่ย 3 วิชา = , average")
-    print("ดีเยี่ยม")
+    print("คะเเนนของคุณควรปรับปรุง")
+elif average < 80:
+    print("คะเเนนของคุณผ่าน")
+else: 
+    print("คะเเนนของคุณดีเยี่ยม")
+
+print("จัดทำโดย ภัทรลาภา การะเกตุ เลขที่ 33 ")
