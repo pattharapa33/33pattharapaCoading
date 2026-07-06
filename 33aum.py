@@ -1,18 +1,7 @@
-print("โปรเเกรมคำนวณค่า BMI เเละเเปลผลสุขภาพ")
+print("โปรเเกรมคำนวณเเม่สูตรคูณ")
+num = int(input("เเม่สูตรคูณเเม่ : "))
 
-kilogram = int(input("ค่าน้ำหนัก"))
-height = int(input("ค่าส่วนสูง"))
+for i in range(1 , 13):
+    print(num,"x",i,"=",num*i)
 
-BMI = kilogram / (height * height)
-Total = BMI
- 
-print("\nหาค่าเฉลี่ยBMI = ", Total)
-
-if BMI < 18.5:
-    (print("น้ำหนักน้อย ควรกินเพิ่มขึ้น"))
-elif 18.5 < BMI < 22.9:
-    (print("ปกติ"))
-elif 23 < BMI < 24.9:
-    (print("น้ำหนักเกิน กินให้น้อยลง"))
-else:
-    (print("อ้วน เสี่ยงเป็นโรค"))
+print("\n by pattharapa Karakat 4/4 No.33")
