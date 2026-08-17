@@ -30,3 +30,6 @@
 
 3 สค 69
 คิดไอเดีย mini project 
+
+17 สค 69
+ทำmini project ส่ง
